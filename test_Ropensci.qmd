@@ -1,0 +1,107 @@
+---
+title: "rOpenSci"
+author: "Julia Gustavsen"
+editor: visual
+subtitle: "A bit about package review in the open"
+format:
+  revealjs: 
+    theme: black
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    incremental: true 
+    smaller: true
+    preview-links: auto
+    footer: <https://ropensci.org>
+---
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## rOpenSci
+
+A non-profit project (supported by grants and donations) founded in 2011 with the mission:
+
+> rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software
+
+## What does rOpenSci do? {.smaller}
+
+-   Creating technical **infrastructure** in the form of carefully vetted, staff and community-contributed R software tools that lower barriers to working with scientific data sources on the web
+-   Making the right data, tools and best practices more **discoverable**
+-   Creating social infrastructure through a welcoming and diverse **community**
+-   Promoting **advocacy** for a culture of data sharing and reusable software
+-   Building **capacity** of software users and developers and fostering a sense of pride in their work
+
+::: notes
+-   Hosts packages
+    -   Undergo review (more about this)
+        -   Helps promote these packages
+    -   Community calls on different topics
+    -   Docs on package development and maintenance
+    -   R Universe (can mention that at AdminR meetup they were quite interested inthis)
+:::
+
+# rOpenSci package categories
+
+<https://ropensci.org/packages/>
+
+\>300 rOpenSci packages
+
+![](images/ropensci_package_categories.png)
+
+# Who is involved?
+
+-   Volunteers:
+    -   Editors
+
+        -   find reviewers and oversee process, do some initial checks and correspondence with the package authors
+
+    -   Reviewers - peer review of packages
+
+    -   Package authors developers
+
+# Who is involved?
+
+Staff
+
+![](images/ropensci_staff.png)
+
+# Package peer-review
+
+-   Author submits a package (creates issue in Github repo)
+-   Some automated checks occur 
+-   Editor in chief decides if the package is a good fit or not 
+-   Handling editor assigned (often with more domain knowledge)
+-   Handling editor looks for reviewers (database of people who have volunteered, checks with other editors, etc)
+-   Reviewers review package in the open on github
+-   Authors respond and fix things based on comments
+-   Reviewers respond
+-   Once everyone is satisfied the package can be approved and becomes a part of the rOpenSci umbrella.
+
+# An example
+
+<https://github.com/ropensci/software-review/issues/521>
+
+# What else?
+
+What else? Community.... Message board, slack (always someone who has seen your problem before). Used to organize unconference, twitter, blog posts, community calls
+
+What is cool about this? Learn new things, improve skills, ...?
+
+Great docs on package development
+Code of conduct
+
+# My involvement
+
+editor, package maintainer ...reviewer.
+
+# Interested in finding out more?
+
+-   Sign up for the newsletter <https://ropensci.org/news/>
+-   Read more about reviewing and sign up to be a reviewer: <https://devguide.ropensci.org/softwarereviewintro.html#whyreview>
+-   consider submitting your scientific package to rOpenSci.
