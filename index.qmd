@@ -15,7 +15,7 @@ format:
     footer: <https://jooolia.github.io/Agroscope_rOpensci_pres>
 ---
 
-## rOpenSci 
+## rOpenSci
 
 A non-profit project (supported by grants and donations) founded in 2011 with the mission:
 
@@ -60,7 +60,6 @@ Volunteers:
 
     -   find reviewers and oversee process, do some initial checks and correspondence with the package authors
 
-
 # Who is involved?
 
 Staff
@@ -70,8 +69,8 @@ Staff
 # R Package peer-review {.smaller}
 
 -   Author submits a package (creates issue in Github repo)
--   Automated checks occur 
--   Editor in chief decides if the package is a good fit or not 
+-   Automated checks occur
+-   Editor in chief decides if the package is a good fit or not
 -   Handling editor assigned (often with more domain knowledge)
 -   Handling editor looks for reviewers
 -   Reviewers review package in the open on github
@@ -85,28 +84,28 @@ Staff
 
 # What else?
 
-Message board and  Slack (always someone who has seen your problem before). 
-Community calls
-Great docs on package development
-Code of conduct
-Statistical package peer review
-R universe
+-   ⌨️ An active Slack (can usually find someone who has seen your problem before).
+
+-   📞 Community calls
+
+-   📘 Great docs on package development
+
+-    💹 Statistical package peer review
+
+-   🚀 R universe
 
 # My involvement
 
-📝	:memo:
-:pencil:reviewer since 2015
+📝 reviewer since 2015
 
-:construction_worker_woman: package maintainer since 2019
+👷‍♀️ package maintainer since 2019
 
-👷‍♀️editor since 2020
-🧐	:monocle_face:
+🧐 editor since 2020
 
 # Interested in finding out more?
 
 -   Sign up for the newsletter <https://ropensci.org/news/>
 -   Read more about reviewing and sign up to be a reviewer: <https://devguide.ropensci.org/softwarereviewintro.html#whyreview>
 -   consider submitting your scientific package to rOpenSci.
-
 
 # Thanks!
