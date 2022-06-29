@@ -52,7 +52,7 @@ A non-profit project (supported by grants and donations) founded in 2011 with th
 
 Volunteers:
 
--   Package authors developers
+-   Package authors
 
 -   Reviewers - peer review of packages
 
@@ -71,7 +71,7 @@ Staff
 -   Author submits a package (creates issue in Github repo)
 -   Automated checks occur
 -   Editor in chief decides if the package is a good fit or not
--   Handling editor assigned (often with more domain knowledge)
+-   Handling editor assigned
 -   Handling editor looks for reviewers
 -   Reviewers review package in the open on github
 -   Authors respond and fix things based on comments
