@@ -94,11 +94,13 @@ R universe
 
 # My involvement
 
-reviewer since 2015
+📝	:memo:
+:pencil:reviewer since 2015
 
 :construction_worker_woman: package maintainer since 2019
 
 👷‍♀️editor since 2020
+🧐	:monocle_face:
 
 # Interested in finding out more?
 
