@@ -12,22 +12,16 @@ format:
     incremental: true 
     smaller: true
     preview-links: auto
-    footer: <https://ropensci.org>
+    footer: <https://jooolia.github.io/Agroscope_rOpensci_pres>
 ---
 
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-## rOpenSci
+## rOpenSci 
 
 A non-profit project (supported by grants and donations) founded in 2011 with the mission:
 
 > rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software
+
+![](images/icon_lettering_color.png){fig-align="center"}
 
 ## What does rOpenSci do? {.smaller}
 
@@ -52,18 +46,20 @@ A non-profit project (supported by grants and donations) founded in 2011 with th
 
 \>300 rOpenSci packages
 
-![](images/ropensci_package_categories.png)
+![](images/ropensci_package_categories.png){fig-align="center"}
 
 # Who is involved?
 
--   Volunteers:
-    -   Editors
+Volunteers:
 
-        -   find reviewers and oversee process, do some initial checks and correspondence with the package authors
+-   Package authors developers
 
-    -   Reviewers - peer review of packages
+-   Reviewers - peer review of packages
 
-    -   Package authors developers
+-   Editors
+
+    -   find reviewers and oversee process, do some initial checks and correspondence with the package authors
+
 
 # Who is involved?
 
@@ -71,13 +67,13 @@ Staff
 
 ![](images/ropensci_staff.png)
 
-# Package peer-review
+# R Package peer-review {.smaller}
 
 -   Author submits a package (creates issue in Github repo)
--   Some automated checks occur 
+-   Automated checks occur 
 -   Editor in chief decides if the package is a good fit or not 
 -   Handling editor assigned (often with more domain knowledge)
--   Handling editor looks for reviewers (database of people who have volunteered, checks with other editors, etc)
+-   Handling editor looks for reviewers
 -   Reviewers review package in the open on github
 -   Authors respond and fix things based on comments
 -   Reviewers respond
@@ -89,19 +85,26 @@ Staff
 
 # What else?
 
-What else? Community.... Message board, slack (always someone who has seen your problem before). Used to organize unconference, twitter, blog posts, community calls
-
-What is cool about this? Learn new things, improve skills, ...?
-
+Message board and  Slack (always someone who has seen your problem before). 
+Community calls
 Great docs on package development
 Code of conduct
+Statistical package peer review
+R universe
 
 # My involvement
 
-editor, package maintainer ...reviewer.
+reviewer since 2015
+
+:construction_worker_woman: package maintainer since 2019
+
+👷‍♀️editor since 2020
 
 # Interested in finding out more?
 
 -   Sign up for the newsletter <https://ropensci.org/news/>
 -   Read more about reviewing and sign up to be a reviewer: <https://devguide.ropensci.org/softwarereviewintro.html#whyreview>
 -   consider submitting your scientific package to rOpenSci.
+
+
+# Thanks!

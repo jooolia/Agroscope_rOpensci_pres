@@ -326,22 +326,14 @@
   <p class="author">Julia Gustavsen</p>
 </section>
 
-<section id="code" class="slide level2">
-<h2>Code</h2>
-<p>When you click the <strong>Render</strong> button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
-</section>
 <section id="ropensci" class="slide level2">
 <h2>rOpenSci</h2>
 <p>A non-profit project (supported by grants and donations) founded in 2011 with the mission:</p>
 <blockquote>
 <p>rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software</p>
 </blockquote>
-</section>
+
+<img data-src="images/icon_lettering_color.png" class="r-stretch quarto-figure-center"></section>
 <section id="what-does-ropensci-do" class="slide level2 smaller">
 <h2>What does rOpenSci do?</h2>
 <ul>
@@ -381,19 +373,17 @@
 <p><a href="https://ropensci.org/packages/" class="uri">https://ropensci.org/packages/</a></p>
 <p>&gt;300 rOpenSci packages</p>
 
-<img data-src="images/ropensci_package_categories.png" class="r-stretch"></section>
+<img data-src="images/ropensci_package_categories.png" class="r-stretch quarto-figure-center"></section>
 
 <section id="who-is-involved" class="title-slide slide level1 center">
 <h1>Who is involved?</h1>
+<p>Volunteers:</p>
 <ul>
-<li class="fragment">Volunteers:
-<ul>
+<li class="fragment"><p>Package authors developers</p></li>
+<li class="fragment"><p>Reviewers - peer review of packages</p></li>
 <li class="fragment"><p>Editors</p>
 <ul>
 <li class="fragment">find reviewers and oversee process, do some initial checks and correspondence with the package authors</li>
-</ul></li>
-<li class="fragment"><p>Reviewers - peer review of packages</p></li>
-<li class="fragment"><p>Package authors developers</p></li>
 </ul></li>
 </ul>
 </section>
@@ -404,14 +394,14 @@
 
 <img data-src="images/ropensci_staff.png" class="r-stretch"></section>
 
-<section id="package-peer-review" class="title-slide slide level1 center">
-<h1>Package peer-review</h1>
+<section id="r-package-peer-review" class="title-slide slide level1 smaller center">
+<h1>R Package peer-review</h1>
 <ul>
 <li class="fragment">Author submits a package (creates issue in Github repo)</li>
-<li class="fragment">Some automated checks occur</li>
+<li class="fragment">Automated checks occur</li>
 <li class="fragment">Editor in chief decides if the package is a good fit or not</li>
 <li class="fragment">Handling editor assigned (often with more domain knowledge)</li>
-<li class="fragment">Handling editor looks for reviewers (database of people who have volunteered, checks with other editors, etc)</li>
+<li class="fragment">Handling editor looks for reviewers</li>
 <li class="fragment">Reviewers review package in the open on github</li>
 <li class="fragment">Authors respond and fix things based on comments</li>
 <li class="fragment">Reviewers respond</li>
@@ -426,14 +416,14 @@
 
 <section id="what-else" class="title-slide slide level1 center">
 <h1>What else?</h1>
-<p>What else? Community…. Message board, slack (always someone who has seen your problem before). Used to organize unconference, twitter, blog posts, community calls</p>
-<p>What is cool about this? Learn new things, improve skills, …?</p>
-<p>Great docs on package development Code of conduct</p>
+<p>Message board and Slack (always someone who has seen your problem before). Community calls Great docs on package development Code of conduct Statistical package peer review R universe</p>
 </section>
 
 <section id="my-involvement" class="title-slide slide level1 center">
 <h1>My involvement</h1>
-<p>editor, package maintainer …reviewer.</p>
+<p>reviewer since 2015</p>
+<p>:construction_worker_woman: package maintainer since 2019</p>
+<p>👷‍♀️editor since 2020</p>
 </section>
 
 <section id="interested-in-finding-out-more" class="title-slide slide level1 center">
@@ -443,8 +433,12 @@
 <li class="fragment">Read more about reviewing and sign up to be a reviewer: <a href="https://devguide.ropensci.org/softwarereviewintro.html#whyreview" class="uri">https://devguide.ropensci.org/softwarereviewintro.html#whyreview</a></li>
 <li class="fragment">consider submitting your scientific package to rOpenSci.</li>
 </ul>
+</section>
+
+<section id="thanks" class="title-slide slide level1 center">
+<h1>Thanks!</h1>
 <div class="footer footer-default">
-<p><a href="https://ropensci.org" class="uri">https://ropensci.org</a></p>
+<p><a href="https://jooolia.github.io/Agroscope_rOpensci_pres" class="uri">https://jooolia.github.io/Agroscope_rOpensci_pres</a></p>
 </div>
 </section>
     </div>
@@ -660,48 +654,6 @@
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        function fireSlideChanged(previousSlide, currentSlide) {
-
-          // dispatch for htmlwidgets
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for reveal
-        if (window.Reveal) {
-          window.Reveal.addEventListener("slidechanged", function(event) {
-            fireSlideChanged(event.previousSlide, event.currentSlide);
-          });
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
